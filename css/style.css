@@ -84,6 +84,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*Global Styles*/
+
+body {
+  background: #d8e3fa;
+}
+
+aside .content-wrapper {
+  background: url("https://unsplash.com/@haliewestphoto");
+}
+  
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
