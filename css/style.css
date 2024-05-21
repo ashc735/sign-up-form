@@ -84,14 +84,51 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /*Global Styles*/
+/*Main Styles */
+
 
 body {
   background: #d8e3fa;
 }
 
-aside .content-wrapper {
-  background: url("https://unsplash.com/@haliewestphoto");
+aside {
+  background-image: url("https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash");
+  background-position: cover;
+}
+
+aside h1 {
+  background: black transparent;
+  font-family: 'Sedan SC';
+  color: white;
+  font-size: 2em;
+}
+
+figure {
+  width: 20%;
+}
+
+img {
+  width: 33%;
+}
+
+/* Form Styles */
+
+.form-wrapper {
+
+}
+
+.form-description {
+  font-family:'Roboto';
+  font-size: 1em;
+}
+
+p {
+  text-align: left;
+}
+
+span {
+  text-align: center;
+  font-weight: bold;
 }
   
 
