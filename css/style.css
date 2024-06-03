@@ -88,7 +88,7 @@ textarea {
 
 
 body {
-  background: #d8e3fa;
+  background: #e9effd;
 }
 
 aside {
@@ -111,10 +111,17 @@ img {
   width: 33%;
 }
 
+footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
 /* Form Styles */
 
 .form-wrapper {
-
+  display: flex;
+  flex-direction: column;
+  background: white;
 }
 
 .form-description {
