@@ -89,11 +89,35 @@ textarea {
 
 body {
   background: #e9effd;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: normal;
+  justify-content: normal;
+  align-items: normal;
 }
 
 aside {
-  background-image: url("https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash");
+  background-image: url('../img/unspash.jpg');
   background-position: cover;
+  width: 25%;
+  min-width: 400px;
+  min-height: 960px;
+}
+
+aside .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+figure {
+  width: 20%;
+}
+
+img {
+  width: 100%;
 }
 
 aside h1 {
@@ -103,25 +127,23 @@ aside h1 {
   font-size: 2em;
 }
 
-figure {
-  width: 20%;
-}
-
-img {
-  width: 33%;
-}
-
-footer {
+.credits {
+  color: white;
+  font-family: 'Sedan SC';
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-end;
 }
+
+
+
 
 /* Form Styles */
 
 .form-wrapper {
   display: flex;
   flex-direction: column;
-  background: white;
+  
 }
 
 .form-description {
@@ -136,6 +158,12 @@ p {
 span {
   text-align: center;
   font-weight: bold;
+}
+
+form {
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
 }
   
 
