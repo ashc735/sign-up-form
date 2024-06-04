@@ -150,12 +150,14 @@ aside h1 {
 .form-wrapper {
   display: flex;
   flex-direction: column;
-  
 }
 
 .form-description {
   font-family:'Roboto';
   font-size: 1em;
+  margin-top: 175px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 p {
@@ -171,28 +173,39 @@ form {
   background: white;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px;
+  height: 450px;
+  width: 100%;
 }
 
 fieldset {
   font-family: 'Roboto';
   font-size: 1rem;
+  border: black box-shadow;
+  width: 100%;
 }
 
 legend {
   font-family: 'Roboto';
   font-size: 1.25rem;
   font-weight: bold;
+  margin: 10px 10px;
 }
 
 input {
   border: #E5E7EB solid;
   border-radius: 7%;
   gap: 5px;
+  margin-left: 10px;
 
 }
 
 button {
-
+  font-family: 'Roboto';
+  background: #596D48;
+  color: white;
+  border: none;
 }
   
 
