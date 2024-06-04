@@ -94,26 +94,30 @@ body {
   align-content: normal;
   justify-content: normal;
   align-items: normal;
+  margin: 0'
 }
 
 aside {
   background-image: url('../img/unspash.jpg');
-  background-position: cover;
   width: 25%;
   min-width: 400px;
   min-height: 960px;
+  margin: 0;
+  padding: 0;
 }
 
-aside .content-wrapper {
+.logo-content {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
 figure {
   width: 20%;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -121,7 +125,6 @@ img {
 }
 
 aside h1 {
-  background: black transparent;
   font-family: 'Sedan SC';
   color: white;
   font-size: 2em;
@@ -131,8 +134,12 @@ aside h1 {
   color: white;
   font-family: 'Sedan SC';
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
+}
+
+.credits a {
+  color: white;
 }
 
 
@@ -164,6 +171,28 @@ form {
   background: white;
   display: flex;
   flex-flow: row wrap;
+}
+
+fieldset {
+  font-family: 'Roboto';
+  font-size: 1rem;
+}
+
+legend {
+  font-family: 'Roboto';
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+input {
+  border: #E5E7EB solid;
+  border-radius: 7%;
+  gap: 5px;
+
+}
+
+button {
+
 }
   
 
