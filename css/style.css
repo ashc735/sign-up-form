@@ -177,12 +177,12 @@ form {
   margin: 20px;
   height: 450px;
   width: 100%;
+  box-shadow: gray 10px 5px 5px;
 }
 
 fieldset {
   font-family: 'Roboto';
   font-size: 1rem;
-  border: black box-shadow;
   width: 100%;
 }
 
@@ -196,7 +196,8 @@ legend {
 input {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   border: #E5E7EB solid;
   border-radius: 7%;
   gap: 5px;
