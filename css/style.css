@@ -194,11 +194,13 @@ legend {
 }
 
 input {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   border: #E5E7EB solid;
   border-radius: 7%;
   gap: 5px;
   margin-left: 10px;
-
 }
 
 button {
