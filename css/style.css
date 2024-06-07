@@ -94,7 +94,7 @@ body {
   align-content: normal;
   justify-content: normal;
   align-items: normal;
-  margin: 0'
+  margin: 0;
 }
 
 aside {
@@ -102,15 +102,23 @@ aside {
   width: 25%;
   min-width: 400px;
   min-height: 960px;
+  background-position: cover;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
 }
 
 .logo-content {
   display: flex;
+  color: white;
+  text-transform: uppercase;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin: 0;
 }
 
 
@@ -124,18 +132,18 @@ img {
   width: 100%;
 }
 
-aside h1 {
+.logo-content span {
   font-family: 'Sedan SC';
   color: white;
-  font-size: 2em;
+  font-size: 2.25em;
 }
 
-.credits {
+.footer {
   color: white;
   font-family: 'Sedan SC';
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  font-size: .75rem;
+  width: 100%;
+  text-align: center;
 }
 
 .credits a {
@@ -150,6 +158,8 @@ aside h1 {
 .form-wrapper {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  width: 100%;
 }
 
 .form-description {
@@ -164,13 +174,14 @@ p {
   text-align: left;
 }
 
-span {
+.form-wrapper span {
   text-align: center;
   font-weight: bold;
 }
 
 form {
   background: white;
+  background-position: cover;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -202,6 +213,7 @@ input {
   border-radius: 7%;
   gap: 5px;
   margin-left: 10px;
+  text-transform: uppercase;
 }
 
 button {
