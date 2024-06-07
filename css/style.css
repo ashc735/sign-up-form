@@ -165,6 +165,7 @@ img {
   margin-top: 175px;
   margin-left: 35px;
   margin-right: 35px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -211,6 +212,9 @@ input {
   border-radius: 7%;
   gap: 5px;
   margin-left: 10px;
+}
+
+input [ type=text ] {
   text-transform: uppercase;
 }
 
@@ -222,8 +226,9 @@ button {
   font-size: 1rem;
   background: #596D48;
   color: white;
-  border: none;
-  width: 75px;
+  border: white solid;
+  border-radius: 13%;
+  width: 85px;
   max-height: 40px;
 }
   
