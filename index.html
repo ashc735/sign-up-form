@@ -52,26 +52,40 @@
     <form action=# method="post" id="form">
       <fieldset>
         <legend>Sign Up Here</legend>
-
+        <div class="form-item">
         <label for="first_name">First Name</label>
         <input type="text" id="first_name" name="first_name">
-
-        <label for="last_name">Last Name</label>
-        <input type="text" id="last_name" name="last_name">
-
+          </div>
+          <div class="form-item">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name">
+          </div>
+       
+          <div class="form-item"> 
         <label for="email">Email Address</label>
         <input type="email" id="email" name="email">
+          </div>
 
+        <div class="form-item">
         <label for="phone_number">Phone Number</label>
         <input type="tel" id="phone_number" name="phone_number">
+        </div>
 
+        <div class="form-item">
         <label for="user_password">Password</label>
-        <input type="password" id="user_password" name="password">
+        <input type="password" id="user_password" name="user_password" onkeyup="check_password()" required>
+                            <span id="password-error"></span>
+        </div>
 
+        <div class="form-item">
         <label for="user_password">Confirm Password</label>
-        <input type="password" id="user_password" name="password">
+        <input type="password" id="confirm_password" name="confirm_password" onkeyup="check_password()" required>
+        </div>
+
       </fieldset>
-      <button type="submit">Sign Up</button>
+      <div class="footer">
+        <button type="submit">Creat Account</button>
+        <div class="login-prompt">Already have an account? <a href="#" class="login-link">Log in</a></div>
     </form>
   </div>
 
